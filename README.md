@@ -1,6 +1,6 @@
 # Agents and Skills
 
-Reusable instructions for AI-assisted project work, written and refined in my own agent collection. This edition contains 11 specialist roles, two custom skills, and their supporting briefs, checklists, and handoff rules. They cover discovery, architecture, design, marketing, review, QA, documentation, quantitative research, and risk assessment.
+Reusable instructions for AI-assisted project work, written and refined in my own agent collection. This edition contains 12 specialist roles, two custom skills, and their supporting briefs, checklists, and handoff rules. They cover discovery, architecture, project management, design, marketing, review, QA, documentation, quantitative research, and risk assessment.
 
 Each role defines its inputs, ownership, working procedure, verification, and stop conditions. The files are actual working instructions adapted for reuse. They do not start an agent, configure a model, or grant tool access.
 
@@ -29,6 +29,7 @@ Configure your runtime's model, reasoning level, tools, filesystem permissions, 
 |---|---|---|
 | [Business analyst](agents/business-analyst.md) | Clarify what is needed and why | Scoped PRD, confirmed decisions, architect handoff |
 | [System architect](agents/system-architect.md) | Turn approved requirements into exact technical contracts | Architecture, schemas, API and migration decisions |
+| [Project manager](agents/pm-agent.md) | Break approved work into tasks and identify what needs a human decision | Specialist briefs, dependency order and task registries |
 | [Design agent](agents/design-agent.md) | Specify source-led interfaces and creative work | Flows, states, tokens, accessible design handoff |
 | [Marketing analyst](agents/marketing-analyst.md) | Define marketing scope, gather inputs, coordinate strategy work | Modular Brief, readiness register, selected marketing artifacts |
 | [Product marketing agent](agents/product-marketing-agent.md) | Develop selected positioning, pricing, launch, lifecycle, copy, or creative work | Product-specific decisions and bounded handoffs |
@@ -39,7 +40,7 @@ Configure your runtime's model, reasoning level, tools, filesystem permissions, 
 | [Risk manager](agents/risk-manager.md) | Assess portfolio, model, liquidity, and operational risk | Calculated exposure, stress cases, constraints and gaps |
 | [Agent creator](agents/agent-creator.md) | Maintain role instructions and their handoffs | Source-backed design, approved edits, verification |
 
-Frontend, backend, project-management, and DevOps role definitions are outside this edition. Where a handoff needs implementation or delivery ownership, name the appropriate owner in your own project.
+For implementation handoffs, name the person or specialist who owns that part of your project.
 
 ## Use a skill
 
